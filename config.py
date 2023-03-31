@@ -14,12 +14,12 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = 123456  # integer value, dont use ""
-    API_HASH = "hmmmm"
-    TOKEN = "BOT_TOKEN"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
-    OWNER_ID = 948247711  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = "kavinduaj"
-    SUPPORT_CHAT = "lkhitech"  # Your own group for support, do not add the @
+    API_ID = 16644806  # integer value, dont use ""
+    API_HASH = "f5973177a62bc16e09fd3a983d9e39c4"
+    TOKEN = "5794630354:AAHEYAjsjj7LYcQP-6g5UvkiWBsCakCpkfI"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    OWNER_ID = 5079995680  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "samarth3110"
+    SUPPORT_CHAT = "omnimo2"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
         -1001253661229
     )  # Prints any new group the bot is added to, prints just the name and ID.
@@ -28,8 +28,8 @@ class Config(object):
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = "something://somewhat:user@hosturl:port/databasename"  # needed for any database modules
-    REDIS_URI = " "
+    SQLALCHEMY_DATABASE_URI = "redis-19523.c57.us-east-1-4.ec2.cloud.redislabs.com:19523"  # needed for any database modules
+    REDIS_URI = "redis-19523.c57.us-east-1-4.ec2.cloud.redislabs.com:19523"
     LOAD = []
     NO_LOAD = ["rss", "cleaner", "connection", "math"]
     WEBHOOK = False
